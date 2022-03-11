@@ -1,6 +1,11 @@
 #include <stdio.h>
 /**
  * main - returns size of stuff
+ * @intT: int
+ * @ch: char
+ * @lonInt: long int
+ * @lonlongint: Long long int
+ * @flt: float
  *
  * Return: Returns 0 
  */
@@ -12,8 +17,12 @@ int main(void)
 	long int lonInt;
 	long long int lonlongInt;
 	float flt;
+
+
 	printf("Size of a char: %d byte(s)",sizeof(ch));
 	printf("Size of an int: %d byte(s)",sizeof(intT));
 	printf("Size of a long int %d byte(s)",sizeof(lonInt));
 	printf("Size of a long long int %d byte(s)",sizeof(lonlongInt));
 	printf("Size of a float: %d byte(s)",sizeof(flt));
+
+	return (0);
