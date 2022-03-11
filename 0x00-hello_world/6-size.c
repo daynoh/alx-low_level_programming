@@ -19,10 +19,10 @@ int main(void)
 	float flt;
 
 
-	printf("Size of a char: %lu byte(s)",sizeof(ch));
-	printf("Size of an int: %lu byte(s)",sizeof(intT));
-	printf("Size of a long int %lu byte(s)",sizeof(lonInt));
-	printf("Size of a long long int %lu byte(s)",sizeof(lonlongInt));
-	printf("Size of a float: %lu byte(s)",sizeof(flt));
+	printf("Size of a char: %u byte(s)",sizeof(ch));
+	printf("Size of an int: %u byte(s)",sizeof(intT));
+	printf("Size of a long int %u byte(s)",sizeof(lonInt));
+	printf("Size of a long long int %u byte(s)",sizeof(lonlongInt));
+	printf("Size of a float: %u byte(s)",sizeof(flt));
 
 	return (0);
