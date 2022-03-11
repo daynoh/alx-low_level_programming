@@ -1,28 +1,23 @@
 #include <stdio.h>
 /**
- * main - returns size of stuff
- * @intT: int
- * @ch: char
- * @lonInt: long int
- * @lonlongint: Long long int
- * @flt: float
+ * main -somhte
  *
- * Return: Returns 0 
+ * Return: zeror
  */
 
 int main(void)
 {
-	int intT;
-	char ch;
-	long int lonInt;
-	long long int lonlongInt;
-	float flt;
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
 
-
-	puts("Size of a char: ",sizeof(ch)," byte(s)");
-	puts("Size of an int: ",sizeof(intT)," byte(s)");
-	puts("Size of a long int: ",sizeof(lonInt)," byte(s)");
-	puts("Size of a long long int: ",sizeof(lonlongint)," byte(s)");
-	puts("Size of a float: ",sizeof(flt)," byte(s)");
-
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
+}
+
