@@ -8,7 +8,7 @@ int main()
 { 	
 	char c;
        	for (c = 'A'; c <= 'Z'; ++c)
-	       	printf("%c ", c);
+	       	putchar(c);
 	return 0;
 }
 
