@@ -1,15 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - dfadslfa
+ * main - Entry point
  *
- * Return: is zero
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c;
-       	for (c = 'a'; c <= 'z'; ++c)
-		putchar(c);
-	putchar('\n');
+	char low;
+
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+		printf("\n");
+
 	return (0);
 }
-
