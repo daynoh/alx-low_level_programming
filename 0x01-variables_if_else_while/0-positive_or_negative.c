@@ -3,7 +3,6 @@
 #include <stdio.h>
 /**
  * main - Entry to program
- * @n: does somthing
  *
  * Return: is always zero
  */
