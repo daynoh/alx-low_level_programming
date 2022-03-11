@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *  A function that just prints something
+ *  main - A function that just prints something
  *
- *  Returns a value of zero
+ *  Return: a value of zero
  */
 int main(void)
 {
