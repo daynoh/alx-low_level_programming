@@ -1,9 +1,9 @@
 #include "main.h"
 
 /*
- * puts2 - prints values in an char array skiping one  value
+ * puts2 - prints
  *
- * Return : always 0.
+ * Return : nothing.
  */
 
 void puts2(char *str)
