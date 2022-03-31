@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _puts_recursion - recursively prints a characters in an array
  * @s : contains the array of characters
  *
@@ -17,6 +17,6 @@ void _puts_recursion(char *s)
 	else
 	{
 		_putchar(*s);
-		_puts_recursion(s+1);
+		_puts_recursion(s + 1);
 	}
 }
